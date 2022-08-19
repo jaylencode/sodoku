@@ -1,0 +1,79 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border;
+}
+
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  color: #523379;
+}
+
+#errors {
+  color: #7b5fa0;
+}
+
+#board {
+  width: 450px;
+  height: 450px;
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+  margin: 0 auto;
+  margin-top: 40px;
+  box-shadow: 4px 4px 4px 0.5px #7362b8;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#digits {
+  width: 450px;
+  height: 50px;
+  background: linear-gradient(to right, #654ea3, #eaafc8);
+  border: solid 5px #654ea3;
+  margin: 0 auto;
+  margin-top: 33px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.tile {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #000000;
+  font-size: 20px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number {
+  width: 44px;
+  height: 44px;
+  border: 1px solid #000000;
+  font-size: 20px;
+  font-weight: bold;
+  margin: 2px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.number-selected {
+  background-image: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+}
+
+.tile-start {
+  background-image: linear-gradient(
+    83.2deg,
+    rgba(150, 93, 233, 1) 10.8%,
+    rgba(99, 88, 238, 1) 94.3%
+  );
+}
